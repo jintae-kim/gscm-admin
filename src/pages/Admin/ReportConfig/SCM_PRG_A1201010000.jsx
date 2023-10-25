@@ -56,10 +56,17 @@ const SCM_PRG_A1201010000 = (props) => {
             <div className="grid-twoSide-wrap">
               <div className="grid-section">
 
+              <div className="grid-headline">
+                <div className="result-info">
+                  <span className="tit-icon"></span>
+                  <span className="title">Screen</span>
+                </div>
+              </div>
+
                 <div className="grid-area">
 
                   <div
-                    style={{ height: "600px", background: "#ddd" }}
+                    style={{ height: "642px", background: "#ddd" }}
                   >
                     그리드영역
                   </div>
@@ -77,9 +84,16 @@ const SCM_PRG_A1201010000 = (props) => {
               <div className="grid-twoSide">
                 <div className="grid-section">
 
+                <div className="grid-headline">
+                  <div className="result-info">
+                    <span className="tit-icon"></span>
+                    <span className="title">Dimension</span>
+                  </div>
+                </div>
+
                   <div className="grid-area">
 
-                    <div style={{ height: "300px", background: "#ddd" }}>그리드 영역</div>
+                    <div style={{ height: "280px", background: "#ddd" }}>그리드 영역</div>
 
                   </div>
 
@@ -92,9 +106,16 @@ const SCM_PRG_A1201010000 = (props) => {
 
                 <div className="grid-section">
 
+                  <div className="grid-headline">
+                    <div className="result-info">
+                      <span className="tit-icon"></span>
+                      <span className="title">Measure</span>
+                    </div>
+                  </div>
+
                   <div className="grid-area">
 
-                    <div style={{ height: "300px", background: "#ddd" }}>그리드 영역</div>
+                    <div style={{ height: "280px", background: "#ddd" }}>그리드 영역</div>
 
                   </div>
 
