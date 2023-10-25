@@ -298,7 +298,7 @@
     padding-top: 16px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1550px) {
     .main-navigation .nav .nav-item .nav-link {
         font-size: 18px;
     }
@@ -307,5 +307,11 @@
 @media screen and (max-width: 1280px) {
     .main-navigation .nav .nav-item .nav-link {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .main-navigation .nav .nav-item .nav-link {
+        font-size: 14px;
     }
 }
