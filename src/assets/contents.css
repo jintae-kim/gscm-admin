@@ -152,6 +152,20 @@
     margin-top: 0;
 }
 
+.grid-twoSide-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-twoSide-wrap > .grid-section {
+    width: 400px;
+}
+
+.grid-twoSide-wrap .grid-twoSide {
+    width: calc(100% - 420px);
+    margin-left: 20px;
+}
+
 .grid-split .react-split > .split-container.horizontal > .splitter {
     margin: 0;
 }
