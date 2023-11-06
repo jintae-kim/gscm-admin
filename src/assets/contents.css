@@ -334,3 +334,19 @@
 .dx-texteditor-input {
     width: 178px;
 }
+
+.iframe-box {
+    width: 100%;
+    height: calc(100% - 118px);
+    padding:40px;
+    box-sizing: border-box;
+}
+
+.iframe-box .iframe-element {
+    height:700px;
+}
+
+.iframe-box .load-iframe {    
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

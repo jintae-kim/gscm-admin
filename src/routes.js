@@ -1,6 +1,6 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
-import { Main, Notfound, Error } from "./pages";
+import { Main, Notfound, Error, Iframe } from "./pages";
 import {
   SCM_PRG_A1201010000,
   SCM_PRG_A1201020000,
@@ -48,6 +48,11 @@ const AppRoutes = () => {
               thirdDepth="Measure Management"
               firstDepthPath="/admin"
             />
+        },
+        {
+          path: "/Iframe",
+          element:
+            <Iframe/>
         },
         {
           path: "/error",
