@@ -6,7 +6,16 @@ const MainNavItems = [
       {
         title: "Order",
         path: "/order/SCM_PRG_B0101000000",
-        child_depth: []
+        child_depth: [
+          {
+            title: "오더 분석",
+            path: "/iframe?url=https://tkg-tk-dev-gscm-pbi.azurewebsites.net/Embedded/Embedded?workspaceId=7536a368-a350-437f-9dcf-5478ff72a89b&reportId=0bf2b843-41b1-4db6-a8fc-6eaa78479f5b"
+          },
+          {
+            title: "자사/타사 분석 현황",
+            path: "/iframe?url=https://tkg-tk-dev-gscm-pbi.azurewebsites.net/Embedded/Embedded?workspaceId=7536a368-a350-437f-9dcf-5478ff72a89b&reportId=0bf2b843-41b1-4db6-a8fc-6eaa78479f5b"
+          }
+        ]
       },
     ]
   },

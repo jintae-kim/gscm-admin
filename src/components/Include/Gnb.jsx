@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import {Link, NavLink} from "react-router-dom";
 import "../../assets/gnb.css";
 import { MainNavItems } from "../Resources/MainNavItems";
 
 const Gnb = ({ gnbFolding }) => {
   const navItems = MainNavItems;
+
+  // const callEventHandler = (call) => {
+  //   if(call === "callDataA") {
+  //     setCallSrc("https://tkg-tk-dev-gscm-pbi.azurewebsites.net/Embedded/Embedded?workspaceId=7536a368-a350-437f-9dcf-5478ff72a89b&reportId=0bf2b843-41b1-4db6-a8fc-6eaa78479f5b")
+  //   }
+  // }
 
   return (
     <div className="gnb-wrapper">
@@ -73,7 +79,13 @@ const Gnb = ({ gnbFolding }) => {
                       <ul className="sub-depth3">
                         {secondDepth.child_depth && secondDepth.child_depth.map((thirdDepth, index) => (
                           <li key={`depth3-${index}`}>
-                            <NavLink to={thirdDepth.path} className="sub-link">{thirdDepth.title}</NavLink>
+                            <NavLink
+                              to={thirdDepth.path}
+                              className="sub-link"
+                              title={thirdDepth.callData}
+                            >
+                              {thirdDepth.title}
+                            </NavLink>
                           </li>
                         ))}
                       </ul>

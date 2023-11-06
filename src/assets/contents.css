@@ -338,7 +338,7 @@
 .iframe-box {
     width: 100%;
     height: calc(100% - 118px);
-    padding:40px;
+    padding: 0;
     box-sizing: border-box;
 }
 

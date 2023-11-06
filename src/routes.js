@@ -50,7 +50,7 @@ const AppRoutes = () => {
             />
         },
         {
-          path: "/Iframe",
+          path: "/iframe",
           element:
             <Iframe/>
         },
