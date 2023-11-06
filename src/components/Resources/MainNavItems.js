@@ -9,11 +9,11 @@ const MainNavItems = [
         child_depth: [
           {
             title: "오더 분석",
-            path: "/iframe?url=https://tkg-tk-dev-gscm-pbi.azurewebsites.net/Embedded/Embedded?workspaceId=7536a368-a350-437f-9dcf-5478ff72a89b&reportId=0bf2b843-41b1-4db6-a8fc-6eaa78479f5b"
+            path: "/iframe?type=analyze1"
           },
           {
             title: "자사/타사 분석 현황",
-            path: "/iframe?url=https://tkg-tk-dev-gscm-pbi.azurewebsites.net/Embedded/Embedded?workspaceId=7536a368-a350-437f-9dcf-5478ff72a89b&reportId=0bf2b843-41b1-4db6-a8fc-6eaa78479f5b"
+            path: "/iframe?type=analyze2"
           }
         ]
       },
