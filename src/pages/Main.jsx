@@ -69,6 +69,9 @@ const Main = (props) => {
                 <li>
                   ✅ <Link to="/admin/SCM_PRG_A1201030000">SCM_PRG_A1201030000</Link>
                 </li>
+                <li>
+                  ✅ <Link to="/Iframe">Iframe</Link>
+                </li>
               </ul>
 
               <div className="grid-bottom">
