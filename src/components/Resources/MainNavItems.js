@@ -4,18 +4,14 @@ const MainNavItems = [
     path: "/order",
     child_depth: [
       {
-        title: "Order",
-        path: "/order/SCM_PRG_B0101000000",
-        child_depth: [
-          {
-            title: "오더 분석",
-            path: "/iframe?type=analyze1"
-          },
-          {
-            title: "자사/타사 분석 현황",
-            path: "/iframe?type=analyze2"
-          }
-        ]
+        title: "오더 분석",
+        path: "/iframe?type=analyze1",
+        child_depth: []
+      },
+      {
+        title: "자사/타사 분석 현황",
+        path: "/iframe?type=analyze2",
+        child_depth: []
       },
     ]
   },
